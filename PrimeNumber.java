@@ -1,7 +1,9 @@
-class Main {
+import java.util.*
+class PrimeNumber{
     public static void main(String[] args) {
     
-    int num=2;
+	Scanner sc = new Scanner(System.in);
+    int num = sc.nextInt();
     boolean isPrime = true;
     
     if(num <= 1){
